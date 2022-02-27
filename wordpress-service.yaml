@@ -8,8 +8,6 @@ spec:
   selector:
     app: wordpress
     tier: web
-  type: LoadBalancer
-
 ---
 apiVersion: apps/v1
 kind: Deployment

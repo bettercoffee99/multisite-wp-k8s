@@ -11,3 +11,6 @@ secretGenerator:
 - name: mysql-database
   literals:
   - database=multitenant_wp
+- name: cloudflare-api-token
+  literals:
+  - api-token=your_cloudflare_token
